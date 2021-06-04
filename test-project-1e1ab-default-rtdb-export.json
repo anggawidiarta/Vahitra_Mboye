@@ -1,0 +1,192 @@
+{
+  "Film" : {
+    "Masmirah" : {
+      "desc" : "\"Menceritakan tentang kisah percintaan yang penuh drama dan keluh kesah antara sepasang manusia.\" \"",
+      "director" : "Teater Mata",
+      "genre" : "Drama, Romance",
+      "judul" : "Masmirah",
+      "play" : {
+        "kate" : {
+          "nama" : "Kate Winslet",
+          "url" : "https://i.ibb.co/bK5zH0B/1610772104-1-org.jpg"
+        },
+        "leo" : {
+          "nama" : "Leonardo Dicaprio",
+          "url" : "https://i.ibb.co/mhqd7Cd/90sdaily-69265979-192321228437491-1730697972810827685-n-6ef8772d74c590382162ecd648c8b8ad.jpg"
+        }
+      },
+      "poster" : "https://i.ibb.co/HPTYRry/image-6.png",
+      "rating" : "8.8"
+    },
+    "Naga Bonar" : {
+      "desc" : "Di tengah pendudukan Jepang di Indonesia, Naga Bonar berpura-pura menjadi jenderal pasukan pembebasan. Dalam perjalannya, ia menemukan jati dirinya dan menjadi seorang tentara sesungguhnya.",
+      "director" : "Teater Odop",
+      "genre" : "Drama, Comedy",
+      "judul" : "Naga Bonar",
+      "play" : {
+        "dedi" : {
+          "nama" : "Deddy Mizwar",
+          "url" : "https://i.ibb.co/Y2BRF5V/Deddy-Mizwar.png"
+        },
+        "nurul" : {
+          "nama" : "Nurul Arifin",
+          "url" : "https://i.ibb.co/W2B4NCk/Nurul-Arifin.jpg"
+        },
+        "tora" : {
+          "nama" : "Tora Sudiro",
+          "url" : "https://i.ibb.co/0GsP9LM/5982ee60eadad-tora-sudiro-216-287.jpg"
+        }
+      },
+      "poster" : "https://i.ibb.co/TgGySnt/image-4.png",
+      "rating" : "8.8"
+    },
+    "NyeselMerarik" : {
+      "desc" : "\"Menceritakan tentang kisah drama pasca pernikahan antara sepasang sejoli yang awalnya saling mencintai.\"\"",
+      "director" : "Teater Mata",
+      "genre" : "Drama, Slice Of Life",
+      "judul" : "Nyesel Merarik",
+      "play" : {
+        "angga" : {
+          "nama" : "Angga",
+          "url" : "https://i.ibb.co/PzLs1rD/tom-cruise-networth-6865b5f2bee008a8bcb122f599c58d86-600x400.jpg"
+        },
+        "diki" : {
+          "nama" : "Diki",
+          "url" : "https://i.ibb.co/THTttcb/tumblr-1b7cbddf45d3d9f284a0f1a885186883-f0bcbf76-400.png"
+        }
+      },
+      "poster" : "https://i.ibb.co/fxccb6K/image-7.png",
+      "rating" : "8.5"
+    },
+    "TentangEmas" : {
+      "desc" : "\"Mengisahkan tentang perlawanan seorang anak dengan entitas yang misterius.\"\"",
+      "director" : "Teater Niyaniya",
+      "genre" : "Thriller",
+      "judul" : "Tentang Emas",
+      "play" : {
+        "didi" : {
+          "nama" : "Didik Nini Thowok",
+          "url" : "https://i.ibb.co/9Yswzgk/didik-nini-thowok-cantik-20141117-103126.jpg"
+        },
+        "tejo" : {
+          "nama" : "Sujiwo Tejo",
+          "url" : "https://i.ibb.co/ssLQnXZ/012153900-1579861119-IMG-7799.jpg"
+        }
+      },
+      "poster" : "https://i.ibb.co/6t8YNg7/image-8.png",
+      "rating" : "9.3"
+    },
+    "akalbulus" : {
+      "desc" : "\"Yang maha kuasa rupanya sudah memberkati aku dengan kepintaran untuk menciptakan kelok-kelok manis fikiran, segala macam intrik yang halus, yang oleh orang-orang awam yang tidak tahu apa-apa disebut Akal Bulus.\"\"",
+      "director" : "Teater Odop",
+      "genre" : "Drama, Comedy",
+      "judul" : "Akal Bulus Si Kapin",
+      "play" : {
+        "amel" : {
+          "nama" : "Amel",
+          "url" : "https://i.ibb.co/Czn3M76/Image-9.png"
+        },
+        "fareh" : {
+          "nama" : "Fareh",
+          "url" : "https://i.ibb.co/pLLzFtP/KIPqvv-TOC1s.png"
+        },
+        "ghazi" : {
+          "nama" : "Ghazi",
+          "url" : "https://i.ibb.co/f8vgg9X/DIt-Ylc26z-VI.png"
+        }
+      },
+      "poster" : "https://i.ibb.co/tMz6gPv/image-5.png",
+      "rating" : "9.0"
+    }
+  },
+  "User" : {
+    "1" : {
+      "email" : "bagicode@gmail.com",
+      "nama" : "Robby Dianputra",
+      "password" : "1",
+      "saldo" : "500000",
+      "url" : "https://yt3.ggpht.com/a/AGF-l79H3wIgvBVl0bD5No1VMvfjo_DuhdPjQXWfvw=s288-c-k-c0xffffffff-no-rj-mo",
+      "username" : "1"
+    },
+    "3" : {
+      "email" : "asas@gmail.com",
+      "nama" : "ddr3",
+      "password" : "3",
+      "saldo" : "",
+      "url" : "",
+      "username" : "3"
+    },
+    "Curry30" : {
+      "email" : "stephen@gmail.com",
+      "nama" : "Stephen Curry",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "Curry30"
+    },
+    "dadar30" : {
+      "email" : "stephenhaidar30@gmail.com",
+      "nama" : "Stephen Haidar",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "dadar30"
+    },
+    "darling30" : {
+      "email" : "gagah30@gmail.com",
+      "nama" : "haidargagah",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "darling30"
+    },
+    "duadar30" : {
+      "email" : "duadar30@gmail.com",
+      "nama" : "Haidar bahagia",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "duadar30"
+    },
+    "haidarganteng30" : {
+      "email" : "haidarrahmans30@gmail.com",
+      "nama" : "Muhammad Khaidar Rahman",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "haidarganteng30"
+    },
+    "haidarhaidar" : {
+      "email" : "haidaritu@gmail.com",
+      "nama" : "Haidar haidar",
+      "password" : "123",
+      "saldo" : "",
+      "url" : "",
+      "username" : "haidarhaidar"
+    },
+    "haidarrahman30" : {
+      "email" : "haidarrahmans30@gmail.com",
+      "nama" : "Muhammad Khaidar Rahman",
+      "password" : "30",
+      "saldo" : "500000",
+      "url" : "gs://vahitra-mov.appspot.com/images/7merah.png",
+      "username" : "haidarrahman30"
+    },
+    "ilham12" : {
+      "email" : "ilhamfidatama@gmail.com",
+      "nama" : "ilham",
+      "password" : "123",
+      "saldo" : "",
+      "url" : "",
+      "username" : "ilham12"
+    },
+    "radar30" : {
+      "email" : "raduar@gmail.com",
+      "nama" : "raduar",
+      "password" : "30",
+      "saldo" : "",
+      "url" : "",
+      "username" : "radar30"
+    }
+  }
+}
