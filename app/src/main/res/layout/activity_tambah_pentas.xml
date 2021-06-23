@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_admin"
+    tools:context=".admin.DetailPentas">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/btn_back_admin" />
+
+        <TextView
+            android:id="@+id/activity_title"
+            style="@style/judul_pentas"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="204dp"
+            android:text="Tambah Pentas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/nama_pentas"
+            style="@style/form_detail"
+            android:layout_marginTop="64dp"
+            android:autofillHints=""
+            android:gravity="center_vertical"
+            android:hint="Nama Pentas"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/grey_primary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_title" />
+
+        <EditText
+            android:id="@+id/nama_produksi"
+            style="@style/form_detail"
+            android:autofillHints=""
+            android:gravity="center_vertical"
+            android:hint="Produksi dari"
+            android:inputType="textPersonName"
+            android:paddingVertical="5dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/grey_primary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nama_pentas" />
+
+        <EditText
+            android:id="@+id/pemain_pentas"
+            style="@style/form_detail"
+            android:autofillHints=""
+            android:gravity="center_vertical"
+            android:hint="Pemain"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/grey_primary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nama_produksi" />
+
+        <EditText
+            android:id="@+id/sinopsis_pentas"
+            style="@style/form_detail"
+            android:autofillHints=""
+            android:gravity="center_vertical"
+            android:hint="Sinopsis"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pemain_pentas" />
+
+        <EditText
+            android:id="@+id/tanggal_pentas"
+            style="@style/form_detail"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="Tanggal Tayang"
+            android:inputType="textPersonName"
+            android:maxLines="4"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sinopsis_pentas" />
+
+        <Button
+            android:id="@+id/btn_edit_pentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_admin"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tanggal_pentas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

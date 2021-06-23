@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_admin"
+    tools:context=".admin.DetailPentas">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_back_admin" />
+
+    <TextView
+        android:id="@+id/activity_title"
+        style="@style/judul_pentas"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="204dp"
+        android:text="Detail Pentas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pentas_icon"
+            android:layout_width="189dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="163dp"
+            android:background="@drawable/shape_rectangle_white_alpha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_title"
+            app:srcCompat="@drawable/pentas_icon" />
+
+    <EditText
+        android:id="@+id/nama_pentas"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pentas_icon"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Nama Pentas"
+        android:text="Masmirah"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/nama_produksi"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_pentas"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Produksi dari"
+        android:text="Teater Putih Universitas Mataram"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/pemain_pentas"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_produksi"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Pemain"
+        android:inputType="textPersonName"
+        android:text="Esa, Fareh, Ghazy"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/sinopsis_pentas"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pemain_pentas"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Sinopsis"
+        android:text="@string/lorem"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:autofillHints=""
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/tanggal_pentas"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinopsis_pentas"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:hint="Tanggal Tayang"
+        android:text="20 November 2020"
+        android:maxLines="4"
+        android:ems="10"
+        android:autofillHints=""
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/btn_edit_pentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_admin"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/btn_hapus"
+        app:layout_constraintTop_toBottomOf="@+id/tanggal_pentas" />
+
+    <Button
+        android:id="@+id/btn_hapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/hapus_admin"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tanggal_pentas" />
+
+        <ImageView
+            android:id="@+id/iv_tambah_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintBottom_toBottomOf="@+id/pentas_icon"
+            app:layout_constraintEnd_toEndOf="@+id/pentas_icon"
+            app:srcCompat="@drawable/btn_add_pentas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
